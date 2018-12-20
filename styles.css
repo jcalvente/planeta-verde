@@ -1,0 +1,79 @@
+* {
+  font-family: "PT Sans Narrow","Century Gothic","Apple Gothic",sans-serif;
+}
+
+li.nav-item.active {
+  background-color: #43a047;
+  border-radius: 10%;
+}
+
+li.nav-item {
+  margin: 0 20px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  padding: 10px 15px;
+  color: #43a047;
+}
+
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+  color: #fff;
+}
+
+.navbar-light {
+  box-shadow: 0px 0px 10px 0px #BDBDBD;
+}
+
+main .jumbotron.header {
+  background-image: url('./images/images9.jpeg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+main .jumbotron.header .title {
+  color: white;
+  font-size: 60px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #43a047;
+}
+
+a.link {
+  transition: color .4s cubic-bezier(.235,.02,.165,1.155);
+  color: #68A94A;
+  text-decoration: underline;
+}
+
+hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.61);
+}
+
+.social img {
+  width: 25px;
+}
+
+footer {
+  background-color: #f2f3f2;
+  color: #848f89;
+}
+
+main {
+  box-shadow: 0 0 0.2em 0.2em rgba(0,0,0,.2);
+}
+
+.nav-right {
+  position: absolute;
+  top: -50px;
+  background-color: #68A94A;
+  border-radius: 5px;
+}
+
+.nav-right .nav-link {
+  border-radius: 0px;
+}
+
+.nav-right .nav-link:hover, .nav-right .nav-link.active {
+  background-color: #B5D8A6;
+}
